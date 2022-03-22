@@ -44,7 +44,7 @@ $(document).ready(function () {
     valid = validateContact();
     if (valid) {
       $.ajax({
-        url: 'https://formsubmit.co/ajax/info@ddschweisser.de',
+        url: 'https://formsubmit.co/ajax/bohn-trockenbau-gmbh@t-online.de',
         method: 'POST',
         data: {
           name: $('#userName').val(),
